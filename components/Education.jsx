@@ -13,7 +13,7 @@ const portfolioItems = [
   {
     name: "Pre Engineering",
     description: "Punjab Group of Colleges",
-    year: "2023-2027",  
+    year: "2021-2022",  
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_KCS5gyb_9Nk9KnFyR8I4b8X5bLa9vfJVSg&s",
     url: "https://my.pgc.edu/"
   },
@@ -23,7 +23,7 @@ const portfolioItems = [
 export default function PortfolioCards() {
   return (
     <div className="w-full max-w-[60rem] mx-auto space-y-4 p-4">
-      <h2 className="text-4xl sm:text-6xl lg:text-5xl font-bold mb-20 text-center bg-gradient-to-r from-white to-zinc-600 text-transparent bg-clip-text">
+      <h2 className="text-4xl sm:text-6xl lg:text-5xl font-bold mb-10 text-center bg-gradient-to-r from-white to-zinc-600 text-transparent bg-clip-text">
      Education
         </h2>
       {portfolioItems.map((item) => (

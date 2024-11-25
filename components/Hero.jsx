@@ -93,9 +93,9 @@ function MainContent() {
       </div>
     </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-2xl">
-        <Stat number="12" label="YEARS OF EXPERIENCE" />
-        <Stat number="46" label="PROJECTS COMPLETED" />
-        <Stat number="20" label="WORLDWIDE CLIENTS" />
+        <Stat number="01" label="YEARS OF EXPERIENCE" />
+        <Stat number="10" label="PROJECTS COMPLETED" />
+        <Stat number="05" label="CERTIFICATIONS" />
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">

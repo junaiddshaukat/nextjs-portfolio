@@ -28,7 +28,7 @@ export default function RecentProjects() {
   return (
     <section className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-20 text-center bg-gradient-to-r from-white to-zinc-600 text-transparent bg-clip-text">
+        <h2 className="text-5xl sm:text-6xl lg:text-5xl font-bold mb-10 text-center bg-gradient-to-r from-white to-zinc-600 text-transparent bg-clip-text">
           Recent Projects   
         </h2>
         
