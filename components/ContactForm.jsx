@@ -28,7 +28,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="min-h-screen text-white p-6 flex flex-col items-center justify-center">
+    <div id='contact-f' className="min-h-screen text-white p-6 flex flex-col items-center justify-center">
       <div className="w-full max-w-[50rem] space-y-8">
         <div className="space-y-2">
           <h2 className="text-4xl sm:text-6xl lg:text-5xl font-bold mb-10 text-center bg-gradient-to-r from-white to-zinc-600 text-transparent bg-clip-text">

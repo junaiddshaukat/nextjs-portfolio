@@ -5,22 +5,22 @@ import Image from 'next/image'
 
 const projects = [
   {
-    title: "NajmAI",
-    subtitle: "SaaS Framer Template",
-    description: "An AI-powered design assistant template with a sleek dark interface and purple accents.",
-    image: "https://res.cloudinary.com/junaidshaukat/image/upload/v1732467971/zmkzb5ccci3nn8jygkpn.png",
-    tags: ["Framer", "Dark UI", "AI Assistant", "Dashboard"],
-    link: "/projects/najmai",
-    github: "https://github.com/yourusername/najmai"
+    title: "UE Readers Club",
+    subtitle: "Book Club Web App",
+    description: "A book club web application where users can read, share, and discuss books with other members.",
+    image: "https://res.cloudinary.com/junaidshaukat/image/upload/v1732536449/v1grjuncvv9lqy1pwxcw.jpg",
+    tags: ["Next js", "Node js", "Express js", "Firebase", "Tailwind CSS"],
+    link: "http://ue-readers-club.vercel.app/",
+    github: "https://github.com/Junaid-Shaukat/ue-readers-club"
   },
   {
-    title: "Nashra",
-    subtitle: "SaaS Framer Template",
-    description: "Clean and minimal email marketing platform template with intuitive user interface.",
-    image: "https://res.cloudinary.com/junaidshaukat/image/upload/v1732467971/zmkzb5ccci3nn8jygkpn.png",
-    tags: ["Framer", "Light UI", "Email Marketing", "Analytics"],
-    link: "/projects/nashra",
-    github: "https://github.com/yourusername/nashra"
+    title: "CryptoArea",
+    subtitle: "Cryptocurrency Analytics Platform",
+    description: "A cryptocurrency analytics platform where users can track the latest prices, trends, and news.",
+    image: "https://res.cloudinary.com/junaidshaukat/image/upload/v1732536449/hie8wbuzvldsfkmwrcsf.jpg",
+    tags: ["React", "Coin Gecko Api", "MERN", "JavaScript" ,"Analytics"],
+    link: "https://cryptoarea.netlify.app/",
+    github: "https://github.com/Junaid-Shaukat/CryptoArea"
   }
 ]
 
@@ -45,7 +45,7 @@ export default function RecentProjects() {
                 />
               </div>
               
-              <div className="md:w-3/5 p-6 md:p-8 flex flex-col justify-between">
+              <div className="md:w-[90%] p-6 md:p-8 flex flex-col justify-between">
                 <div>
                   <div className="flex justify-between items-start mb-4">
                     <div>
@@ -53,7 +53,7 @@ export default function RecentProjects() {
                       <p className="text-lg text-zinc-400">{project.subtitle}</p>
                     </div>
                     <Link 
-                      href={project.link} 
+                      href={project.link} target="_blank"
                       className="text-white hover:text-purple-400 transition-all duration-300 transform group-hover:translate-x-1 group-hover:-translate-y-1"
                     >
                       <ArrowUpRight className="w-6 h-6" />
