@@ -48,7 +48,7 @@ function ProfileCard() {
       </div>
       <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">Muhammad Junaid Shaukat</h2>
       <p className="text-gray-400 text-sm md:text-base mb-6">
-        Software Engineer - Competitive Programmer - Leetcode 110+
+        Software Engineer - Competitive Programmer
       </p>
       <div className="flex justify-center gap-4">
         <SocialIcon
@@ -59,7 +59,7 @@ function ProfileCard() {
         <SocialIcon
           icon={<Github className="w-5 h-5" />}
           label="Github"
-          url="https://github.com/Junaid-Shaukat"
+          url="https://github.com/junaiddshaukat"
         />
         <SocialIcon
           icon={<Mail className="w-5 h-5" />}
