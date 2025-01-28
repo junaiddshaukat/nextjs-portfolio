@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, url: 'https://github.com/Junaid-Shaukat' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/junaiddshaukat' },
   { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/junaiddshaukat' },
   { name: 'Twitter', icon: Twitter, url: 'http://x.com/junaiddshaukat' },
   { name: 'Email', icon: Mail, url: 'mailto:junaidshaukat546@gmail.com' },
