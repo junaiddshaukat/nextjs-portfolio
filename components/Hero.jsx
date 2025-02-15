@@ -130,7 +130,7 @@ function MainContent() {
 
 <div className="mt-3" style={{ textAlign: "center" }}>
   <img
-    src="https://ghchart.rshah.org/421d61/Junaid-Shaukat"
+    src="https://ghchart.rshah.org/421d61/junaiddshaukat"
     alt="GitHub Contribution Graph"
     className='w-full'
   />
