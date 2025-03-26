@@ -18,6 +18,8 @@ export default function Portfolio() {
   )
 }
 const skills = [
+  "RUST",
+  "C/C++",
   "HTML/CSS",
   "Javascript",
   "Next.js",
@@ -29,7 +31,6 @@ const skills = [
   "Node.js",
   "MongoDB",
   "Git/Github",
-  "C++",
   "Competitive Programming",
   "Data Structures",
 ]
